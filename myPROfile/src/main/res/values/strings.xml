@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PROfile</string>
+    <string name="no_conn_mess">Waiting for Internet network</string>
+
+    <string name="txt_emp_only">This application is for L\'Oréal employees only</string>
+    <string name="txt_howto_code">How to get it</string>
+    <string name="security_code_help_title">Access PROfile from your computer</string>
+    <string name="security_code_help_mess">to get the code on: Your profile / Your information / Mobile application</string>
+
+
+    <string name="txt_appid">Digit your security code</string>
+    <string name="btn_validate">Validate</string>
+
+    <string name="txt_reload">Reload</string>
+
+    <string name="txt_getFile">Upload a file</string>
+    <string name="txt_take_picture">Take a picture</string>
+    <string name="txt_open_files">Select a file</string>
+
+    <string name="txt_sendEmail">Send email</string>
+
+    <string name="content_logo">Logo</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancel">CANCEL</string>
+    <string name="txt_exit">EXIT</string>
+    <string name="txt_proceed">PROCEED</string>
+
+    <string name="confirmExit">Log out from PROfile?</string>
+
+    <string name="txt_downloaded">Your file has been downloaded</string>
+    <string name="err_download">File not available</string>
+
+    <string name="err_winopen">Content not yet available</string>
+    <string name="err_ssl">The current certificate cannot be verified!\nProceed anyway?</string>
+
+</resources>
