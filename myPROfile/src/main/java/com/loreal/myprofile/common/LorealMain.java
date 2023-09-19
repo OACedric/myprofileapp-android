@@ -52,7 +52,6 @@ public class LorealMain {
     protected String DEVICETYPE = "S";
     protected String DEVICENAME = Build.MANUFACTURER + ' ' + Build.PRODUCT + " (" + Build.MODEL + ')';
     protected MimeTypeMap mime = MimeTypeMap.getSingleton();
-    //public static final String appUrl = "https://boiventc.synology.me/loreal/TestApp/TestApp.html";
     //public static final String appUrl = "https://dgrhq38.loreal.wans/profile/hrislogin.html?FL=X";
     public static final String appUrl = "https://profile.loreal.com";
     public static final String appLogoutUrl = "https://profile.loreal.com/dana-na/auth/logout.cgi";

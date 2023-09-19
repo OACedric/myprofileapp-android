@@ -6,7 +6,7 @@ android {
         applicationId "com.loreal.myprofile"
         minSdkVersion 23
         targetSdkVersion 33
-        versionCode 2
+        versionCode 3
         versionName "1.3" //1.3
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
