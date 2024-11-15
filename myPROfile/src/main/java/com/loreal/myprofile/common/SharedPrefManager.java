@@ -2,6 +2,8 @@ package com.loreal.myprofile.common;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import androidx.security.crypto.EncryptedSharedPreferences;
+import androidx.security.crypto.MasterKeys;
 
 public class SharedPrefManager {
 
@@ -12,7 +14,13 @@ public class SharedPrefManager {
     private SharedPreferences settings;
 
     private SharedPrefManager(Context context) {
-        settings = context.getSharedPreferences(MY_APP_PREFS, context.MODE_PRIVATE);
+        //settings = context.getSharedPreferences(MY_APP_PREFS, context.MODE_PRIVATE);
+        MasterKey masterKey = new MasterKey.Builder(context).setKeyScheme(MasterKey.KeyScheme.AES256_GCM).build();
+        settings = EncryptedSharedPreferences.create(
+                context,
+                MY_APP_PREFS,
+                EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
+                EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM);
     }
 
     public static SharedPrefManager getInstance(Context context){

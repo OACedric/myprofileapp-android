@@ -76,7 +76,7 @@
                 reloadLayout = (ConstraintLayout) findViewById(R.id.reloadLayout);
                 reloadProgress = (ProgressBar) findViewById(R.id.reloadProgress);
 
-                WebView.setWebContentsDebuggingEnabled(true);
+                //WebView.setWebContentsDebuggingEnabled(true);
 
                 myWebView.getSettings().setJavaScriptEnabled(true);
                 myWebView.getSettings().setAllowFileAccess(true);
